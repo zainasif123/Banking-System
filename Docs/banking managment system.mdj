@@ -1455,11 +1455,11 @@
 												"$ref": "AAAAAAGAAFCxx7k3D/M="
 											},
 											"font": "Arial;13;1",
-											"left": 226,
+											"left": 227,
 											"top": 435.5,
-											"width": 91,
+											"width": 93,
 											"height": 13,
-											"text": "deposit money"
+											"text": "Deposit Funds"
 										},
 										{
 											"_type": "LabelView",
@@ -1490,9 +1490,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 221,
+									"left": 222,
 									"top": 428.5,
-									"width": 101.736328125,
+									"width": 103,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGAAFCxx7k4fyg="
@@ -1592,7 +1592,7 @@
 							"containerChangeable": true,
 							"left": 200,
 							"top": 424,
-							"width": 143,
+							"width": 147,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGAAFCxx7k3D/M="
@@ -3015,9 +3015,9 @@
 											"font": "Arial;13;1",
 											"left": 228.5,
 											"top": 499.5,
-											"width": 101,
+											"width": 103,
 											"height": 13,
-											"text": "withdraw money"
+											"text": "Withdraw Money"
 										},
 										{
 											"_type": "LabelView",
@@ -3050,7 +3050,7 @@
 									"font": "Arial;13;0",
 									"left": 223.5,
 									"top": 492.5,
-									"width": 111.84814453125,
+									"width": 113.162109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGAAFvCj70qh3M="
@@ -3076,7 +3076,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -32,
+									"left": -40,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -3092,7 +3092,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -32,
+									"left": -40,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -3108,7 +3108,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -32,
+									"left": -40,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -3124,7 +3124,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -32,
+									"left": -40,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -3140,7 +3140,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -32,
+									"left": -40,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -3150,7 +3150,7 @@
 							"containerChangeable": true,
 							"left": 200,
 							"top": 488,
-							"width": 158,
+							"width": 160,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGAAFvCj70p/4s="
@@ -3733,7 +3733,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 148,
-									"top": 460,
+									"top": 459,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3754,7 +3754,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 151,
-									"top": 445,
+									"top": 444,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3775,7 +3775,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 143,
-									"top": 489,
+									"top": 488,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3796,7 +3796,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 121,
-									"top": 455,
+									"top": 454,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -3816,7 +3816,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 126,
+									"left": 125,
 									"top": 442,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -3837,7 +3837,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 111,
+									"left": 112,
 									"top": 481,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -3859,7 +3859,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 176,
-									"top": 465,
+									"top": 464,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3899,7 +3899,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 175,
-									"top": 493,
+									"top": 492,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3944,7 +3944,7 @@
 								"$ref": "AAAAAAGAAD8G07fW2Hw="
 							},
 							"lineStyle": 1,
-							"points": "93:471;199:491",
+							"points": "93:471;199:490",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGAAFxJtr5GFkA="
@@ -4001,7 +4001,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 621,
+									"left": 622,
 									"top": 457,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4022,7 +4022,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 620,
+									"left": 621,
 									"top": 442,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4043,7 +4043,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 624,
+									"left": 625,
 									"top": 486,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4064,7 +4064,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 382,
+									"left": 384,
 									"top": 476,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -4085,7 +4085,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 384,
+									"left": 386,
 									"top": 462,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -4106,7 +4106,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 380,
+									"left": 382,
 									"top": 503,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4217,7 +4217,7 @@
 								"$ref": "AAAAAAGAAFvCjr0otG4="
 							},
 							"lineStyle": 1,
-							"points": "358:499;888:458",
+							"points": "360:499;888:458",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGAAF08SsCrZnE="
@@ -7526,8 +7526,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 288,
-									"top": 464,
+									"left": 290,
+									"top": 465,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -7546,8 +7546,8 @@
 										"$ref": "AAAAAAGAAGY7tP/YqaM="
 									},
 									"font": "Arial;13;0",
-									"left": 276,
-									"top": 462,
+									"left": 278,
+									"top": 464,
 									"width": 55.65625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7569,8 +7569,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 259,
-									"top": 469,
+									"left": 261,
+									"top": 468,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -7588,7 +7588,7 @@
 								"$ref": "AAAAAAGAAFCxx7k2mlM="
 							},
 							"lineStyle": 1,
-							"points": "273:459;276:487",
+							"points": "275:459;277:487",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGAAGY7tv/bo74="
@@ -11285,7 +11285,7 @@
 											"top": 419.5,
 											"width": 98,
 											"height": 13,
-											"text": "deposit cash"
+											"text": "Deposit Slip"
 										},
 										{
 											"_type": "LabelView",
@@ -11468,7 +11468,7 @@
 											"top": 467.5,
 											"width": 105,
 											"height": 13,
-											"text": "deposit cheque"
+											"text": "Deposit Cheque"
 										},
 										{
 											"_type": "LabelView",
@@ -11631,7 +11631,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 390,
+									"left": 392,
 									"top": 412,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -11652,7 +11652,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 389,
+									"left": 391,
 									"top": 397,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -11673,7 +11673,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 391,
+									"left": 393,
 									"top": 441,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -11692,7 +11692,7 @@
 								"$ref": "AAAAAAGAAFCxx7k2mlM="
 							},
 							"lineStyle": 1,
-							"points": "343:436;439:430",
+							"points": "347:436;439:430",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGAApp0L8Oee8s="
@@ -11724,7 +11724,7 @@
 										"$ref": "AAAAAAGAApqBz8UF5MM="
 									},
 									"font": "Arial;13;0",
-									"left": 352,
+									"left": 354,
 									"top": 435,
 									"width": 35.0517578125,
 									"height": 13,
@@ -11747,7 +11747,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 371,
+									"left": 374,
 									"top": 420,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -11768,7 +11768,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 364,
+									"left": 366,
 									"top": 464,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -11787,7 +11787,7 @@
 								"$ref": "AAAAAAGAAFCxx7k2mlM="
 							},
 							"lineStyle": 1,
-							"points": "343:452;391:460",
+							"points": "347:453;391:460",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGAApqB0MUIiPU="
@@ -16396,7 +16396,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "deposit money",
+					"name": "Deposit Funds",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -16685,7 +16685,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "withdraw money",
+					"name": "Withdraw Money",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -17300,7 +17300,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "deposit cash"
+					"name": "Deposit Slip"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -17308,7 +17308,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "deposit cheque"
+					"name": "Deposit Cheque"
 				},
 				{
 					"_type": "UMLUseCase",
