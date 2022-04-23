@@ -49,7 +49,7 @@ public class Deposit_Slip extends javax.swing.JFrame {
 
         setTitle("Banking Managenment System");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\ARC\\Downloads\\images (1).png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/banking_system/images (1).png"))); // NOI18N
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 255)));
 
         jLabel2.setText("User:");

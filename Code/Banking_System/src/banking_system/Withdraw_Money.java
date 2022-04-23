@@ -268,7 +268,7 @@ public class Withdraw_Money extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Banking Managenment System");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\ARC\\Downloads\\images (1).png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/banking_system/images (1).png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 255)));
 
         jLabel3.setText("User:");
