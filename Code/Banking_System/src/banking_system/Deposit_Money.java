@@ -147,14 +147,12 @@ public class Deposit_Money extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        new Depost_Chque().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Deposit_Slip obj =new Deposit_Slip();
-        obj.show();
-        
-        obj.dispose();
+        new Deposit_Slip().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
