@@ -176,14 +176,14 @@
 											"left": 348,
 											"top": 80,
 											"width": 1,
-											"height": 532
+											"height": 507
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 312,
 									"top": 40,
 									"width": 72.736328125,
-									"height": 572,
+									"height": 547,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBa7+9fjm8eag="
 									},
