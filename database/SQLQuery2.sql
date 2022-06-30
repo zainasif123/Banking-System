@@ -1,0 +1,3 @@
+--create table customerDetails(customerId  int primary key identity(1,1) ,pin int not null,accountNumber int not null,phoneNumber int null,chequeNumber int null,slipNumber int null,availabelAmount int null,insuranceAmount int null,dob varchar(25) null, customerName varchar(25) not null, fatherName varchar(25) null,loanType varchar(25) null,customerEmail varchar(25) null,gender varchar(25) not null, address varchar(50) null, insuranceType varchar(25) null, nationality varchar(25)
+--insert into customerDetails(pin,accountNumber,customerName,gender) values(2245,345090,'Rahim Durani','Male')
+select * from customerDetails
