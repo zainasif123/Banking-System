@@ -40,7 +40,6 @@ public class Deposit_Money extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Banking Managenment System");
-        setAlwaysOnTop(true);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images (1).png"))); // NOI18N
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 255)));
@@ -155,6 +154,7 @@ public class Deposit_Money extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         new Deposit_Slip().setVisible(true);
+       
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
