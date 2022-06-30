@@ -278,15 +278,19 @@ public class Withdraw_Money extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 255)));
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("Name");
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setText("Account No:");
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Available Balance:");
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
         jLabel19.setText("Amount:");
 
         jButton6.setText("Total");

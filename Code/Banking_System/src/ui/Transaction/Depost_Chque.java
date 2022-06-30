@@ -279,18 +279,23 @@ public class Depost_Chque extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 255)));
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Cheque No:");
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Name");
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("Account No:");
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setText("Currency");
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Amount:");
 
         jButton6.setText("Total");
@@ -383,7 +388,7 @@ public class Depost_Chque extends javax.swing.JFrame {
                     .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton7)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane3.addTab("Deposit Money", jPanel3);
