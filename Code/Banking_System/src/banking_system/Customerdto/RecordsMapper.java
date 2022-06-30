@@ -10,5 +10,8 @@ package banking_system.Customerdto;
  * @author shanii
  */
 public class RecordsMapper {
+
+    public RecordsMapper() {
+    }
     
 }

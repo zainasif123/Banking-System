@@ -9,6 +9,13 @@ package banking_system.dal;
  *
  * @author shanii
  */
-public class SQLConnection {
+public class SQLConnection extends IConnection {
+
+    public SQLConnection(String abbasPC, String customer, String sa, String ga) {
+    }
+
+    SQLConnection(String abbasPC, String customer, String sa, String ga) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

@@ -5,10 +5,16 @@
  */
 package banking_system.dal;
 
+import java.sql.Connection;
+
 /**
  *
  * @author shanii
  */
 public class IConnection {
-    
+    public Connection getConnection();
+
+    Connection getConnection() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

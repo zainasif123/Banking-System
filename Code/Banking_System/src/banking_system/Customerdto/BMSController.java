@@ -5,10 +5,20 @@
  */
 package banking_system.Customerdto;
 
+import banking_system.dal.DALManager;
+import java.util.ArrayList;
+
 /**
  *
  * @author shanii
  */
 class BMSController {
-    
+      DALManager objDAL;
+    public BMSController(){
+    objDAL = BMSFactory.getInstanceOfDALManager();
+    }
+
+    public ArrayList<banking_system.dal.Customerdto> viewCustomer() {
+        return objDAL.getCustomerList();
+}
 }

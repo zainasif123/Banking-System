@@ -5,10 +5,17 @@
  */
 package banking_system.dal;
 
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
 /**
  *
  * @author shanii
  */
 class RecordsMapper {
+
+    ArrayList<CustomerDTO> getCustomer(ResultSet rs) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
