@@ -5,6 +5,8 @@
  */
 package ui.CreateAccount;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Hassan bhai
@@ -89,6 +91,7 @@ public class Account extends javax.swing.JFrame {
         jLabel7.setText("Address");
 
         jTextField1.setEditable(false);
+        jTextField1.setText("234");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -96,6 +99,7 @@ public class Account extends javax.swing.JFrame {
         });
 
         jTextField2.setEditable(false);
+        jTextField2.setText("345");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -103,6 +107,12 @@ public class Account extends javax.swing.JFrame {
         });
 
         jTextField3.setEditable(false);
+        jTextField3.setText("fafagga");
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Saving Account", "Business Account ", "Student Account" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -156,6 +166,16 @@ public class Account extends javax.swing.JFrame {
         });
 
         jButton1.setText("Create");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -343,6 +363,18 @@ public class Account extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+        JOptionPane.showMessageDialog(null,"Account Created Successfully");
+    }//GEN-LAST:event_jButton1MouseClicked
 
     /**
      * @param args the command line arguments
