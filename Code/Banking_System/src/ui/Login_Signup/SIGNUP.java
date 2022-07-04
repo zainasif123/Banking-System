@@ -197,7 +197,7 @@ public class SIGNUP extends javax.swing.JFrame {
     dtm = new DefaultTableModel();
         try{
           String sql="Insert Into Accountant(Cnic,Name,FatherName,password,confirmPassword) values(?,?,?,?,?)";
-          conn = DriverManager.getConnection("jdbc:sqlserver://HP;databaseName=Bank Management System", "sa","ahmed123");
+          conn = DriverManager.getConnection("jdbc:sqlserver://;trustServerCertificate=true HP;databaseName=Bank Management System", "sa","ahmed123");
             statement = conn.createStatement();
             rs = statement.executeQuery("select * from Employees");
             metaData = rs.getMetaData();
