@@ -29,7 +29,8 @@ public class SQLConnection {
 
     public Connection getConnection() {
         try {
-            return DriverManager.getConnection("jdbc:sqlserver://;trustServerCertificate=true;"+this.serverName+";databaseName="+this.dbName, this.dbUserName,this.dbUserPassword);
+            return DriverManager.getConnection("jdbc:sqlserver://;trustServerCertificate=true;"
+                    + ""+this.serverName+";databaseName="+this.dbName, this.dbUserName,this.dbUserPassword);
         }
         catch (Exception e) {
             System.out.println("Error Trace in getConnection() : " + e.getMessage());
