@@ -1,0 +1,12 @@
+--create table customerAccounts(customerId int primary Key identity(1,1),customerName varchar(25) not null,accountNo int not null,accountPin int not null,accountType varchar(25) not null,Gender varchar(25) not null, Address varchar(50) null, Nationality varchar(25) null,mobileNumber varchar(25) null,initialBalance int not null)
+--select * from customerAccounts
+--insert into customerAccounts(customerName,accountNo,accountPin,accountType,Gender,Address,Nationality,mobileNumber,initialBalance) values ('Zain Asif',2726212,2662,'Bussiness Account','Male','Abbottabad','Pakistan','03217989789',1000),
+--('Ahmed Bin Khalid',3636363,5656,'Student Account','Male','Rawalpindi','Pakistan','03115656787',1500),
+--('Ahmed Hussain',35353532,2234,'Bussiness Account','Male','Wah Cantt','Pakistan','03123456987',1000),
+--('Usama Khan',4994941,8085,'Saving Account','Male','Islamabad','Pakistan','03415676876',500),
+--('Zaeem Raja',5151451,3443,'Student Account','Male','Saujli','Bahrrain','03334545676',500),
+--('Arshad Ali',3457651,7878,'Bussiness Account','Male','Peshawar','Pakistan','03113456789',1000),
+--('Aryan Maqsood',245453,1122,'Saving Account','Male','Brimingham','UK','009224565656',1500),
+--('Umer Javed',991123,8899,'Student Account','Male','Tokyo','Japan','00998899889',2000),
+--('Ikra Shahzad',454567,5454,'Saving Account','Female','Jaddah','Saudi Arabia','00912345778',2500),
+--('Faryal Maqsood',565765,9913,'Bussiness Account','Female','Sydney','Australia','0088696',5500);
