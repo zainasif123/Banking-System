@@ -4,12 +4,10 @@
  */
 package dal;
 
-import java.sql.Connection;
-
 /**
  *
  * @author HP
  */
-public interface  IConnection {
-    public Connection getConnection();
+public class RecordSet {
+    
 }

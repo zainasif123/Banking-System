@@ -5,7 +5,11 @@
  */
 package ui.CreateAccount;
 
+<<<<<<< HEAD
 import com.sun.jdi.connect.spi.Connection;
+=======
+import javax.swing.JOptionPane;
+>>>>>>> b2ebab33187436895dde7e2055e3e8b950ac2770
 
 /**
  *
@@ -79,13 +83,31 @@ public class Account extends javax.swing.JFrame {
         jLabel7.setText("Address");
 
         jTextField1.setEditable(false);
+        jTextField1.setText("234");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
+<<<<<<< HEAD
+=======
+        jTextField2.setEditable(false);
+        jTextField2.setText("345");
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+
+>>>>>>> b2ebab33187436895dde7e2055e3e8b950ac2770
         jTextField3.setEditable(false);
+        jTextField3.setText("fafagga");
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Saving Account", "Business Account ", "Student Account" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +152,30 @@ public class Account extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jButton3.setText("Reset");
+=======
+        jButton1.setText("Create");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setText("Back");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setText("Clear");
+>>>>>>> b2ebab33187436895dde7e2055e3e8b950ac2770
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -268,9 +313,23 @@ public class Account extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
+<<<<<<< HEAD
     private void createBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createBtnActionPerformed
         
     }//GEN-LAST:event_createBtnActionPerformed
+=======
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+        JOptionPane.showMessageDialog(null,"Account Created Successfully");
+    }//GEN-LAST:event_jButton1MouseClicked
+>>>>>>> b2ebab33187436895dde7e2055e3e8b950ac2770
 
     /**
      * @param args the command line arguments
